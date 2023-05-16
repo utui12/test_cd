@@ -17,10 +17,10 @@ npm run build
 
 ### Lints and fixes files
 ```
-npm run lint
+npm run serve
 ```
 
 ### Customize configuration 12321321
 See [Configuration Reference](https://cli.vuejs.org/config/).
-111
+111 测试后
 2222
