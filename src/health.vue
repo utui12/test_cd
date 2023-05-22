@@ -38,7 +38,6 @@ export default {
     calculate() {
       const heightInM = this.height / 100;
       const bmi = this.weight / Math.pow(heightInM, 2);
-      const bf = 1.2 * bmi + 0.23 * this.age - 10.8 * (1 - this.gender);
       const a = this.waist * 0.74;
       const b = this.weight * 0.082 + 34.89
       const c = a - b
